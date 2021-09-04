@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:superheroes/resources/superheroes_colors.dart';
-
-import 'action_button.dart';
+import 'package:superheroes/widgets/action_button.dart';
 
 class InfoWithButton extends StatelessWidget {
-  final String title;
-  final String subtitle;
-  final String buttonText;
-  final String assetImage;
-  final double imageHeight;
-  final double imageWidth;
-  final double imageTopPadding;
+  final String title; // — будет отвечать за самый крупный текст
+  final String subtitle; // — текст поменьше, капсом
+  final String buttonText; // — текст на кнопке
+  final String assetImage; // — адрес до картинки
+  final double imageHeight; //  — высота картинки
+  final double imageWidth; // — ширина картинки
+  final double imageTopPadding; // — отступ у картинки сверху, в виджете Stack
 
   const InfoWithButton({
     Key? key,

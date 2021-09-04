@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/painting.dart';
 import 'package:superheroes/resources/superheroes_colors.dart';
 
 class ActionButton extends StatelessWidget {
@@ -18,7 +19,7 @@ class ActionButton extends StatelessWidget {
             color: SuperheroesColors.blue,
             borderRadius: const BorderRadius.all(Radius.circular(8))),
         child: Text(
-          text,
+          text.toUpperCase(),
           style: TextStyle(
             color: SuperheroesColors.white,
             fontWeight: FontWeight.w700,

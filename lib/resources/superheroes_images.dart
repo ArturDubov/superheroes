@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class SuperheroesImages {
   const SuperheroesImages._();
 
